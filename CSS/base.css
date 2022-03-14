@@ -1,0 +1,18 @@
+/*主体部分*/
+.main{
+    width:1200px;
+    margin:0 auto;
+}
+
+/*浮动与清除浮动-浮动后需马上清除浮动-子集浮动需给父级加清除浮动类*/
+.fl{float:left;}
+.fr{float:right;}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*去除链接的下划线*/
+a{text-decoration: none;}
+

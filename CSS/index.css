@@ -1,0 +1,84 @@
+/*顶部*/
+.header{
+    height:160px;
+    background-color: blue;/*暂时！！！！*/
+}
+
+.header .headerTop{
+    height:40px;
+    background-color: #32373e;
+}
+
+.header .headerBottom{
+    height: 120px;
+    background-color: #00b38a;
+}
+
+.header .headerTop .hTopContent{
+    height:40px;
+    background-color: aqua;/*暂时！！！*/
+}
+
+.header .headerBottom .hBottomContent{
+    height: 120px;
+    background-color: darkorchid;/*暂时！！！*/
+}
+
+.header .headerTop .hTopContent .hTCleft{
+    height:40px;
+    background-color: yellow;/*暂时！！！*/
+    line-height: 40px;
+}
+
+.header .headerTop .hTopContent .hTCleft .hTCLtxt1{
+    height:40px;
+}
+
+.header .headerTop .hTopContent .hTCleft .hTCLtxt1 .logo{
+    font-size: 22px;
+    color: #00b38a;
+    /*使用margin来控制元素间间距*/
+    margin-right: 32px;
+}
+
+.header .headerTop .hTopContent .hTCleft .hTCLtxt1 .city{
+    font-size: 12px;
+    color: #00b38a;
+    margin-right: 14px;
+}
+
+.header .headerTop .hTopContent .hTCleft .hTCLtxt1 .cityq{
+    font-size: 12px;
+    color: #afb5c0;
+    margin-right: 36px;
+}
+
+.header .headerTop .hTopContent .hTCleft .hTCLtxt2{
+    font-size: 14px;
+}
+
+.header .headerTop .hTopContent .hTCleft .hTCLtxt2 li{
+    float:left;
+    width:70px;
+    text-align: center;
+}
+
+.header .headerTop .hTopContent .hTCleft .hTCLtxt2 li:first-child{
+    background-color: #24282c;
+}
+
+.header .headerTop .hTopContent .hTCleft .hTCLtxt2 li:first-child a{
+    color: #fff;
+}
+
+/*改文字颜色需精准到其第一层外层*/
+.header .headerTop .hTopContent .hTCleft .hTCLtxt2 li a{
+    color:#a3b5a7;
+}
+
+
+.header .headerTop .hTopContent .hTCright{
+    width:200px;
+    height:40px;
+    background-color: yellow;/*暂时！！！*/
+}
